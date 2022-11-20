@@ -8,7 +8,6 @@ def days_between_higher_temp(temperatures):
 			else:
 				counter += 1
 				if counter == len(temperatures) - val:
-					print(val2)
 					counter = 0
 		list_of_days.append(counter)
 		counter = 1
@@ -16,4 +15,4 @@ def days_between_higher_temp(temperatures):
 	return list_of_days
 
 
-print(days_between_higher_temp([0, -1, -15, -15, -8, 23]))
+days_between_higher_temp([0, -1, -15, -15, -8, 23])
